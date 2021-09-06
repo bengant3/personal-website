@@ -4,11 +4,16 @@
 
 body {
     background: navajowhite;
-    color: #4f0800;
+    color: sienna;
     margin: 10% 25%;
     line-height: 2;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
+
+::selection {
+    background: lightblue;
+}
+
 .headerflexbox {
     display: flex;
 }
@@ -26,24 +31,32 @@ body {
     background: navajowhite;
 }
 
-header h1 {
+h1 {
     color: maroon /*sienna indianred*/;
     font-size: 44px;
     letter-spacing: 7px;
 }
 
-header h2 {
-    color: indianred;
+h2 {
+    color: maroon;
     font-size: 28px;
+    font-weight: normal;
 }
 
 ul {
-    color: indianred;
     font-size: 18px;
     line-height: 1.5;
     list-style-type: none;
     text-indent: -30px;
     padding-left: 55px;
+}
+
+ul.langs {
+    color: sienna;
+}
+
+a {
+    color: indianred;
 }
 
 body h3 {
