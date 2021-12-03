@@ -1,5 +1,6 @@
 * {
-    font-family: "JetBrains Mono NL SemiBold", "Trebuchet MS";
+    font-family: "JetBrains Mono", "Trebuchet MS", sans-serif;
+    font-weight: 500;
 }
 
 body {
@@ -11,7 +12,8 @@ body {
 }
 
 .boldened {
-    font-family: "JetBrains Mono NL ExtraBold", "Trebuchet MS";
+    /*font-family: "Redacted Script Bold", "Trebuchet MS";*/
+    font-weight: 800;
 }
 
 ::selection {
@@ -22,7 +24,6 @@ body {
     display: flex;
 }
 .stickyheader {
-    font-family: "JetBrains Mono NL ExtraBold", "Trebuchet MS";
     top: 0;
     position: -webkit-sticky;
     position: sticky;
@@ -44,7 +45,6 @@ body {
 }
 
 .stickyfooter {
-    font-family: "JetBrains Mono NL ExtraBold", "Trebuchet MS";
     bottom: 0;
     position: -webkit-sticky;
     position: sticky;
@@ -64,7 +64,7 @@ h2 {
 }
 
 ul {
-    font-family: "JetBrains Mono NL SemiBold", "Trebuchet MS";
+    /*font-family: "Redacted Script Regular", "Trebuchet MS";*/
     font-size: 16px;
     line-height: 1.5;
     list-style-type: none;
@@ -81,7 +81,6 @@ a {
 }
 
 body h3 {
-    font-family: "JetBrains Mono NL ExtraBold", "Trebuchet MS";
     font-size: 22px;
     color: maroon;
 }
