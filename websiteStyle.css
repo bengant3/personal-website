@@ -27,7 +27,16 @@ body {
     position: -webkit-sticky;
     position: sticky;
     background: navajowhite;
-    font-weight: bolder;
+}
+
+.stickyheadercontainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tiger {
+    font-weight: normal;
 }
 
 .subheaderlinks {
